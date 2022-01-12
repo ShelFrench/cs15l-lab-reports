@@ -1,3 +1,3 @@
 # hello im sheldon
 *I like pizza*
-![Image](http://thehouseandhomemagazine.com/downloads/249/download/iStock-470664152.jpg?cb=0edd4dc04c871b3b015b9b957aa78dd9&w=1200)
+![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-cjh14ahqln%2Fproduct_images%2Fuploaded_images%2Fchickenparmpizza-1-web.jpg&f=1&nofb=1)
