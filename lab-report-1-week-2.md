@@ -54,8 +54,11 @@ Using SSH key we can save a key to our local computer and ieng6 server that allo
 
 ![sshKeygen](sshKeygen.png)
 
-Then we need to save the private key by logging on to the server and using `mkdir` to create a .ssh folder. Log out and on the client use the command `scp` in this format with your own information to save the key from client to server. Using
-`> scp C:/Users/sheld/.ssh/id_rsa.pub cs15lwi22agb@ieng6.ucsd.edu:~/.ssh/authorized_keys` to save the key to the server. Now you can use the scp and ssh command without the need of a password.
+Then we need to save the private key by logging on to the server and using `mkdir` to create a .ssh folder. Log out and on the client use the command `scp` in this format with your own information to save the key from client to server.
+
+Example:`> scp C:/Users/sheld/.ssh/id_rsa.pub cs15lwi22agb@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+
+ Now you can use the scp and ssh command without the need of a password.
 
 
 
