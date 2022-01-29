@@ -36,3 +36,5 @@ Output/Symptom: ` Exception in thread "main" java.lang.StringIndexOutOfBoundsExc
         at java.base/java.lang.String.substring(String.java:1874)
         at MarkdownParse.getLinks(MarkdownParse.java:24)
         at MarkdownParse.main(MarkdownParse.java:34) `
+
+This bug occured when the input had brackets without parentheses. An index out of bounds exception was thrown because there were no parentheses after the brackets. This was fixed with an if statement thet returned if parentheses arent found.
