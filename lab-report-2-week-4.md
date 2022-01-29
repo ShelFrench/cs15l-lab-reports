@@ -31,10 +31,10 @@ This bug occured when the input had a link on the first line of the text. Due to
 
 [Failed input #3](noParen.md)
 
-Output/Symptom: ` Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 12
+Output/Symptom: `Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 12
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
         at java.base/java.lang.String.substring(String.java:1874)
         at MarkdownParse.getLinks(MarkdownParse.java:24)
-        at MarkdownParse.main(MarkdownParse.java:34) `
+        at MarkdownParse.main(MarkdownParse.java:34)`
 
 This bug occured when the input had brackets without parentheses. An index out of bounds exception was thrown because there were no parentheses after the brackets. This was fixed with an if statement thet returned if parentheses arent found.
