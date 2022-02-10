@@ -3,7 +3,7 @@
 
 ![imageFix](ImageBugFix1.png)
 
-[Failed input #1](test-file2.md)
+[Failed input #1](https://shelfrench.github.io/cs15l-lab-reports/test-file2.md)
 
 
 Output/Symptom: `[img.pic, https://google.com]`
@@ -15,7 +15,7 @@ The bug happened when an input markdown had an image within it. This symptom is 
 
 ![infinteFix](InfiniteFix.png)
 
-[Failed input #2](firstline.md)
+[Failed input #2](https://shelfrench.github.io/cs15l-lab-reports/firstline.md)
 
 Output/Symptom: `Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
         at java.base/java.lang.StringLatin1.charAt(StringLatin1.java:47)
@@ -29,7 +29,7 @@ This bug occured when the input had a link on the first line of the text. Due to
 
 ![noParenthesisFix](NoP.png)
 
-[Failed input #3](noParen.md)
+[Failed input #3](https://shelfrench.github.io/cs15l-lab-reports/noParen.md)
 
 Output/Symptom: `Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 12
         at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
