@@ -9,3 +9,4 @@
 * [lab report 1](https://shelfrench.github.io/cs15l-lab-reports/lab-report-1-week-2)
 * [lab report 2](https://shelfrench.github.io/cs15l-lab-reports/lab-report-2-week-4)
 * [lab report 3](https://shelfrench.github.io/cs15l-lab-reports/lab-report-3-week-6)
+* [lab report 5](https://shelfrench.github.io/cs15l-lab-reports/lab-report-5-week-10)
